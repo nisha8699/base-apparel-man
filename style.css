@@ -1,0 +1,89 @@
+"Version": 1,
+"WorkspaceRootPath": "C:\\Users\\Manisha\\Downloads\\Base Apparel Main\\Base Apparel Main\\images\\",
+"Documents": [],
+"DocumentGroupContainers": 
+[
+  {
+    "Orientation": 0,
+    "VerticalTabListWidth": 256,
+    "DocumentGroups": []
+  }
+]
+*
+{   
+    margin: 0px;
+    padding:0px;
+}
+body{
+    style:"background-image:url('background image. Svg') ;"
+}
+
+.container
+{
+    display: flex;
+    font-family: arial,sans-serif;
+    display: flex;
+    align-content: flex-end;
+    
+}   
+
+.left
+{
+display: flex;
+flex:1px;
+
+flex-direction: column;
+justify-content: center;
+}
+.two
+{ padding:60px;
+   width: 158px;
+   height: 33px;
+}
+    
+.left-section,h1
+{
+    color: black;
+    padding: 60px;
+
+}
+.left-section ,span h1
+{ 
+padding: 60px;
+color: red;
+
+
+}
+.left-section,p{
+   color: brown;
+   
+}
+.email
+{   display: flex;
+    border-width:1px ;
+}
+.email input
+{
+    flex:1;
+    font-size:1rem;
+   
+}
+.email button
+{
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.email button img
+{
+width: 50px;
+display: flex;
+}
+.right-section
+{   display:flex;
+    flex-direction: row;
+    
+}
+
+
