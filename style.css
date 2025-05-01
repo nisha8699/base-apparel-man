@@ -15,31 +15,28 @@
     padding:0px;
 }
 body{
-    style:"background-image:url('background image. Svg') ;"
+    style:"background-image:url('background image. Svg')";
 }
 
 .container
 {
     display: flex;
     font-family: arial,sans-serif;
-    display: flex;
     align-content: flex-end;
     
 }   
 
 .left
 {
+padding:60px;
+width: 158px;
+height: 33px;
 display: flex;
 flex:1px;
-
 flex-direction: column;
 justify-content: center;
 }
-.two
-{ padding:60px;
-   width: 158px;
-   height: 33px;
-}
+
     
 .left-section,h1
 {
@@ -79,6 +76,7 @@ justify-content: center;
 {
 width: 50px;
 display: flex;
+
 }
 .right-section
 {   display:flex;
