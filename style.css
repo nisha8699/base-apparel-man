@@ -10,6 +10,7 @@
     display:flex;
     flex-direction: row-reverse;
     align-content: flex-end;
+    position: relative;
 }   
 .left-section
 {
@@ -69,9 +70,8 @@ display: flex;
 }
 .right-section
 { 
-display:flex;
-flex-direction: row-reverse;
-align-items: center;
-text-wrap: wrap;
+right:16px;
+top:30px;
+position:absolute;
 }
 
